@@ -1,3 +1,11 @@
+Komma in i PowerShell ctrl + ö
+
+eller skriva PowerShell i Sök
+
+https://github.com/T-Kall/javascript
+
+-------------------------------------------------------------------
+
 # För att skapa en ny git i en mapp (görs bara en gång)
 git init
 
@@ -15,6 +23,12 @@ git commit -m "Ett vettigt meddelande"
 # För att synka den lokala giten med din github
 git push -u origin master
 
+#
+git push origin master
+
+origin = länken, så man slipper skriva flera gånger
+
+master = katalogen
 
 --------------------------------------------------------------------
 
