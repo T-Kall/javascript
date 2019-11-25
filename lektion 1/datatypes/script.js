@@ -35,7 +35,7 @@
 
     Strings:
     let name = "Tina" - Använd INTE
-    let name = 'Tina' - Denna ska du inte använda
+    let name = 'Tina' - Denna ska du  använda
     let name = `Tina` - Använd denna när du kör placeholders (shift + ´, mellanslag)
 
     Avsluta varje rad med ett ; (det behövs ej men det är bra)

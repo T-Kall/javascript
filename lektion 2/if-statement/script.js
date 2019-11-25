@@ -57,9 +57,9 @@ if (string !== number) {
 */
 
 /*
-&& och
-||    eller
-! inte
+&&      och
+||      eller
+!       inte
 typeof  vilken datatyp
 
 */
