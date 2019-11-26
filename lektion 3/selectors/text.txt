@@ -1,3 +1,7 @@
 elm
 blazor
 
+
+formulär validering
+node.js
+

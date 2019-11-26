@@ -96,20 +96,26 @@ $(function() {
         console.log(event);
   
         if(event.target.value === 'Hans');
-        console.log('Du är världens bästa människa');
+         console.log('Du är världens bästa människa. Tommy sucks!')
         })
 
     */
 
-    $('#loginForm').submit(function(e) {
-        e.preventDefault(); //laddar inte om sidan då man submittar
+   $('#loginForm').submit((e) => {
 
-        console.log('Nu validerar vi formuläret');
-        console.log('Validering klar - skickar till databas');
 
-     
+    // console.log('Nu validerar vi formuläret');
+    // console.log('Validering klar - skickar till databas');
 
-    })
+    let = writeToDatabaseCompleted = false;
+
+    while(!(writeToDatabaseCompleted)) {
+        console.error('Code: 1124 Message: Problem med att spara informationen. Kontakta administratören.');
+        return false
+    }
+
+    
+})
 
 
 
