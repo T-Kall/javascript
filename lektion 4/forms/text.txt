@@ -1,0 +1,9 @@
+lösenord kanske 8 tecken
+
+bygg formulär först
+rekommenderar Bootstrap
+lägg id på alla fält
+
+Nästa gång:
+api-anrop
+ajax
