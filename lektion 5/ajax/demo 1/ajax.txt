@@ -1,0 +1,35 @@
+    <div>AJAX - Asynchronius JavaScript and XML</div>
+    <div>C# - Async - await</div>
+
+    <h1>HTTP</h1>
+    <p>GET - när vi vill hämta saker</p>
+    <p>POST - när vi vills skapa saker</p>
+    <p>PUT - uppdatera saker</p>
+    <p>PATCH - uppdatera delar AV en sak</p>
+    <p>DELETE - ta bort</p>
+
+    <p>CRUD - create read update, delet</p>
+    <p>HTTP - post, get, put, delet</p>
+
+    <h1>HTTP Status Codes</h1>
+    <p>200 - ok</p>
+    <p>201 - created</p>
+
+    <h4>Felmeddelanden  - klientsidan/användaren</h4>
+    <p>400 - Bad request</p>
+    <p>401 - Unauthorized -- tex att man måste vara inloggad</p>
+    <p>403 - Forbidden</p>
+    <p>404 - Not found</p>
+    <p>409 - Conflict -- tex om det redan finns en användare</p>
+
+    <h4>Felmeddelanden  - serversidan/webservern/databasen</h4>
+    <p>500 - Internal server error</p>
+    <p>501 - Not implemented</p>
+    <p>503 - Service unavailable</p>
+
+    <h1>ReadyState</h1>
+    <p>0 - Request not initalized</p>
+    <p>1 - Server connection establiched</p>
+    <p>2 - Request recieved</p>
+    <p>3 - Processing request</p>
+    <p>4 - Request finished and response is ready</p>
