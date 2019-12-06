@@ -3,7 +3,6 @@ $(function() {
     function isEmpty(id) {
         if($(id).val() === '') {
             $(id).addClass('is-invalid')
-
             $(id).focus();
         } else {
             $(id).removeClass('is-invalid')
@@ -31,6 +30,7 @@ $(function() {
         return (false)
     }
 
+  
 
     //hindrar sidan att ladda om
     $('#regForm').submit((e) => {
@@ -44,7 +44,7 @@ $(function() {
         isEmpty('#confirmPassword'); 
         isEmpty('#gender'); 
         isEmpty('#age'); 
-
+        isEmpty('#check'); 
 
     })
 

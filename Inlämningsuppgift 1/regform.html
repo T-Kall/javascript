@@ -54,15 +54,16 @@
                 </div>
 
                 <!-- Ålder - select -->
-                <div class="form-group order-4   order-md-4 col-md-2">
+                <div class="form-group order-4 order-md-4 col-md-2">
                     <label for="age">Ålder</label>
-                    <select name="age" id="age" class="form-control custom-select">
-                        <option disabled selected hidden>Ålder</option>
+                    <select name="age" id="age" class="form-control custom-select" required>
+                        <option disabled selected hidden value="">Ålder</option>
                         <option value="-18">Under 18</option>
                         <option value="+18">Över 18</option>
                     </select>
                     <div class="invalid-feedback">Please choose age</div>
                 </div>
+
 
                 <!-- Kön - Radiobutton -->
                 <div class="form-group order-5 order-md-5 col-md-4">
@@ -89,6 +90,9 @@
                 </div>
             </div>
 
+
+
+
             <!-- Del 2 -->
             <p class="h5 mt-5 mb-3">Account Information</p>
 
@@ -114,17 +118,19 @@
                     <!-- offset-md-2 -->
                     <label for="confirmPassword">Confirm Password</label>
                     <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                    <div class="invalid-feedback">Please reenter password.</div>
                 </div>
 
                 <!-- Checkbox -->
                 <div class="form-check order-5 order-md-3 col-md-6 mt-4 mb-3">
                    
-                        <input class="form-check-input" type="checkbox" name="remember" required>
-                        <label class="form-check-label form-check-inline">Bekräfta att du godkänner precis allt Tina ber dig om </label>
-                        <!--<div class="valid-feedback">Valid.</div>-->
-                        <div class="invalid-feedback">Check this checkbox to continue.</div>
+                        <input type="checkbox" id="check" class="form-check-input" value="" required>
+                        <label class="form-check-label form-check-inline" for="check">Bekräfta att du godkänner precis allt Tina ber dig om </label>
+                        <div class="invalid-feedback">You must agree before submitting.</div>
                    
                 </div>
+
+
 
                 <!-- Meddelande -->
                 <div class="form-group order-4 order-md-5 col-md-12">
