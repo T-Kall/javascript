@@ -22,7 +22,7 @@ $(function() {
             error.innerHTML = 'You must enter valid last name'
         }
         else {
-            error.innerHTML = ''
+            error.innerHTML = 'Rätt' //eller tom
         }
     }
 

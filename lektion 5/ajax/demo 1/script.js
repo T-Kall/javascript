@@ -1,13 +1,14 @@
 $(function () {
 
     //JavaSCript
+    //Javascript
     const http = new XMLHttpRequest();
 
-    http.onreadystatechange = function () {
-        if (this.readyState === 4 || this.status !== 200) {
+    http.onreadystatechange = function() {
+        if(this.readyState === 4 || this.status !== 200) {
             //console.log(this.status + ": " + this.statusText);
             document.getElementById('result').innerHTML =
-            this.responseText
+            this.responseText  
         }
         // else {
         //     console.log('Tinas ERROR ' + this.status + ": " + this.statusText);
@@ -15,7 +16,7 @@ $(function () {
         // }
         
     }
-    http.open("GET", "test.txt", true);
+    http.open("GET","test.txt", true);
     http.send();
 
 });
