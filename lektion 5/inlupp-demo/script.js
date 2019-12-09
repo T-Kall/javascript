@@ -9,7 +9,7 @@ $(function() {
             error.html('You must enter valid first name')
         }
         else {
-            error.html('')
+            error.html('Rätt') //eller tom
         }
     }
 
@@ -27,7 +27,7 @@ $(function() {
     }
 
 
-    $('input').blur(function(e) {
+    $('input').blur(function(e) { //eller keyup istället för blur
         switch(e.target.id) {
             case 'firstName' :
                 valdiateJqueryFirstName();

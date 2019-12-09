@@ -1,0 +1,15 @@
+Idag ska du testa på att bygga en egen Att-Göra-Lista.
+
+Denna sida ska fungera på följande sätt.
+
+Du ska i ett text-fält kunna fylla i en aktivitet du ska göra.
+Du ska kunna spara denna med hjälp av att trycka på en knapp.
+Du ska kunna spara denna med hjälp av att trycka på Enter/Retur-tangenten.
+Den senaste aktiviteten ska ligga längst upp i listan.
+Du ska kunna lista upp alla aktiviteter i ett lista på sidan.
+Du ska kunna bocka i en aktivitet och klar-markera denna.
+Du ska kunna ta bort en aktivitet.
+
+Tips.
+Se till att använda dig av funktioner när du bygger din sida.
+Nyttja även att använda dig av Javascript-objekt när du gör en aktivitet.
